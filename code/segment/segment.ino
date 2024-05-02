@@ -1,6 +1,6 @@
 void segment(int number)
 {
-  if( number == 0 )
+  if( number == 0 ) //첫시작은 else로 시작할 수 없음. 조건이 붙을때만 else 사용가능. if부터 먼저 시작한 후, 그 다음이 else if로 들어옴. 
   {
     PORTD = B11000000 ;
   }
